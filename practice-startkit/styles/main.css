@@ -53,6 +53,7 @@ body {
     justify-content: space-between;
     margin-top: 70px;
     padding: 30px;
+    align-items: flex-end;
 
 }
 
@@ -62,6 +63,12 @@ body {
     padding: 30px;
     background: #fff;
     border-radius: 10px;
+    cursor: pointer;
+    top: 0;
+    transition: 0.5px;
+    object-fit: cover;
+    
+
 }
 
 .hero .cards h3 {
